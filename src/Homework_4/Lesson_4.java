@@ -23,5 +23,11 @@ public class Lesson_4 {
         employee1.firstName = "Arevik";
         employee1.lastName = "Sargsyan";
         employee1.printFullName();
+
+        additional employee2 = new additional();
+        employee2.setFullName("Narine Gevorgyan");
+        System.out.println(employee2.getFullName());
+        System.out.println(employee2.getCardNumber());
     }
+
 }
