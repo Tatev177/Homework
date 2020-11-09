@@ -15,7 +15,10 @@ public class Lesson_4 {
         System.out.println(employee.currentCompanyName);
         employee.setYear(19);
         System.out.println(employee.getYear());
-
+        employee.setExperYear(4);
+        System.out.println(employee.getExperYear());
+        employee.setGradYear(2018);
+        System.out.println(employee.getExperYear());
     /*    int y = employee.sum(employee.year, employee.phoneNumber);
         System.out.println(y);
         */
@@ -23,11 +26,31 @@ public class Lesson_4 {
         employee1.firstName = "Arevik";
         employee1.lastName = "Sargsyan";
         employee1.printFullName();
+        employee1.isArmenian=true;
+        System.out.println(employee1.isArmenian);
+        employee1.setGradYear(2016);
+        System.out.println(employee1.getExperYear());
+        employee1.setExperYear(2);
+        System.out.println(employee1.getExperYear());
 
         additional employee2 = new additional();
         employee2.setFullName("Narine Gevorgyan");
         System.out.println(employee2.getFullName());
         System.out.println(employee2.getCardNumber());
+
+        applicationFormforPicsArt employee3 = new applicationFormforPicsArt();
+        employee3.firstName = "Grigor";
+        employee3.lastName = "Gevorgyan";
+        employee3.printFullName();
+        employee3.setGradYear(2009);
+        System.out.println(employee3.getExperYear());
+        employee3.setExperYear(6);
+        System.out.println(employee3.getExperYear());
+        employee3.country = "California";
+        System.out.println(employee3.country);
+        employee3.anotherMail='Y';
+        System.out.println(employee3.anotherMail);
+
     }
 
 }
